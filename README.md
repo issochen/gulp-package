@@ -14,4 +14,15 @@ npm install --save-dev gulp
 > * 在执行gulp任务时报错误, 请检查全局 gulp 与开发依赖 gulp 版本是否一致
 > * package.json里     "gulp": "^4.0.0"
 > * gulp -v             Local version 4.0.0 
+## 二. 详情目录结构
+### 1. 项目结构
+![项目结构](http://39.108.187.95/blog-resources/gulp/dir.png)
 
+### 2. package.json 配置
+![package.json](http://39.108.187.95/blog-resources/gulp/package.png)
+
+## 三. gulp 详细配置
+### 1. 安装相关插件
+```
+npm install --save-dev gulp-stylus gulp-clean-css gulp-autoprefixer gulp-uglify gulp-htmlmin gulp-rev gulp-rev-collector gulp-concat browser-sync gulp-clean gulp-imagemin imagemin-pngquant del vinyl-paths
+```
